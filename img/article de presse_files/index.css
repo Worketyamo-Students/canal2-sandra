@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans&family=Oswald&family=Pacifico&family=Rubik+Bubbles&display=swap');
+</style>
+@import url('https://fonts.googleapis.com/css2? family= IBM+Plex+Sans+Hebrew & family= Poppins:ital@1 & display=swap');
+
+:root{
+  --color-primary: #618264;
+  --color-active:#a6dea5;
+  --font-family: IBM Plex Sans Hebrew;
+  --font open sans: Open Sans », sans-serif ;
+  --color-text:  #443434;
+}
+*{
+  box-sizing: border-box;
+}
+
+html{
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  border: none;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  padding: 33px 64px;
+}
+
+header ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 600px;
+  list-style: none;
+}
+
+header ul a{
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #000e01;
+}
+
+.active{
+  color: #a6dea5;
+  border-bottom: 2px solid #79AC78;
+}
+
+button{
+  background: #618264;
+  color: #fff;
+  padding: 8px 18px;
+  font-size: 18px;
+  border: none;
+}
+
+.parent{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 33px 64px;
+  width: 100%;
+  height: 100%;
+}
+
+.parent .image1{
+  background: url(../img/Francis-Ngannou.svg) center top / cover;
+  width: 55%;
+  height: 110%;
+  border-radius: 20px;
+  display: flex;
+  align-items: end;
+  padding-top: 100px;
+}
+div{
+  padding: 1px 1px;
+}
+
+.parent .image1 h1{
+  color: #fff;
+  padding: 0 15px;
+  border-left: 10px solid  #618264;
+}
+
+.parent .articles{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  height: 100%;
+}
+.parent .articles h2{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-left: 10px solid  #618264;
+  text-transform: uppercase; 
+}
+.link{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.link a{
+  display: flex;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 10px;
+  color: #443434;
+
+}
+.link a h3{
+  display: flex;
+  text-transform: capitalize;
+  font-weight: bold;
+  gap: 1px;
+  color: #443434;
+}
+
+.link a .image2{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 16px;
+  gap: 1px;
+  float: left;
+}
+
+.parent2 .img{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 33px 64px;
+  margin-top: 100px;
+  width: 100%;
+  font-size: 600%;
+}
+
+.parent2 .img h4{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color:  #79AC78;
+  padding-top: 10px;
+}
+
+.parent2 a {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration:none;
+  color: #000e01;
+  padding: 2px;
+  width: 300px;
+  
+}
+.parent2 a h4{
+  display: flex;
+  font-size: 10px;
+  text-transform:none;
+}
+.parent2 a .text2 {
+  display: flex;
+  width: 80%;
+  height: 20%;
+  display: inline-block;
+}
+h5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+}
+.aff a{
+  display: flex;
+  flex-direction: column;
+  display: inline-block;
+  width: 5%;
+  padding-left: 200px;
+}
+
+

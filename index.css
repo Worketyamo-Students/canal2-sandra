@@ -1,0 +1,38 @@
+:root {
+  --color-primary: #618264;
+  --color-secondary: #79ac78;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  bottom: none;
+}
+.parent {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.articles {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+h3 {
+  color: #443434;
+  display: flex;
+  font-size: 125px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  flex-direction: left;
+}
+.link a {
+  display: flex;
+  width: 35%;
+  height: 20%;
+}
+.link a h3 {
+  display: flex;
+  gap: 20px;
+}
